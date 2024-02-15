@@ -33,7 +33,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: khantzawhein/234-deploylab-frontend:latest
+          tags: khantzawhein/234-deploylab-frontend-dev:latest
       -
         name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.7

@@ -1,6 +1,6 @@
 version: '3.3'
 services:
   frontend:
-    image: khantzawhein/234-deploylab-frontend:latest
+    image: khantzawhein/234-deploylab-frontend-dev:latest
     ports:
       - "9999:80"
